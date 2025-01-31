@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vital Care | Cadastro</title>
+    <link rel="stylesheet" href="estiloGeral.css">
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+<body>
+    <header>
+        <div class="Titulo">
+            <h1><a href="index.html">Vital Care</a></h1>
+        </div>
+        <div class="Menu">
+            <details>
+                <summary>Menu de Opcoes</summary>
+                <ul>
+                    <li><a href="paciente.html">Pacientes</a></li>
+                    <li><a href="medico.html">Medicos</a></li>
+                    <li><a href="prontuario.html">Prontuario</a></li>
+                </ul>
+            </details>
+        </div>
+        <div class="Conta">
+            <details>
+                <summary>Conta</summary>
+                <ul>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="cadastro.html">Cadastro</a></li>
+                </ul>
+            </details>
+        </div>
+    </header>
+    <section class="principal">
+        <img class="logo" src="LogoVitalCare.png" alt="Vital Care">
+        <div>
+            <h2>Cadastre-se</h2>
+            <form>
+                <label for="name">Nome:</label><br>
+                <input class="caixatxt" id="text" type="name" name="nome" placeholder="Digite seu nome... " required><br>
+                <label for="name">Sobrenome:</label><br>
+                <input class="caixatxt" id="text" type="name" name="nome" placeholder="Digite seu sobrenome... " required><br>
+                <label for="name">E-mail:</label><br>
+                <input class="caixatxt" id="text" type="email" name="nome" placeholder="Digite seu e-mail... " required><br>
+                <label for="name">Senha:</label><br>
+                <input class="caixatxt" id="password" type="number" name="nome" placeholder="Digite sua senha... " required><br>
+                <label for="name">Data de nascimento:</label><br>
+                <input class="caixatxt" id="text" type="date" name="nome" required><br>
+                <label for="">Gênero:</label><br>
+                <input type="radio" id="female" name="gender">
+                <label for="female">Feminino</label>
+                <input type="radio" id="male" name="gender">
+                <label for="male">Masculino</label>
+                <input type="radio" id="others" name="gender">
+                <label for="others">Outro</label>
+                <br><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </section>
+    <footer>
+        <address>Instituto de Educação, Ciência e Tecnologia do Maranhão<br>IEMA Pleno de Presidente Dutra</address>
+        <p>2023 - TODOS OS DIREITOS RESERVADOS</p>
+    </footer>
+</body>
+</html>

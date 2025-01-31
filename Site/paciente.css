@@ -1,0 +1,33 @@
+.principal{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin: 20px;
+}
+.lateral{
+    height: 650px;
+    width: 100px;
+    background: #18aeb9;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+.conteudo{
+    height: 650px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+th{
+    background-color: #79E0EE;
+    color:white;
+}
+td{
+    background-color:#05BFDB ;
+    color:black;
+}

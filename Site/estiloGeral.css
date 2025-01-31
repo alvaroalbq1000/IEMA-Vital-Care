@@ -1,0 +1,46 @@
+body{
+    background-color:#95ffe0;
+    margin: 0;
+}
+header{
+    background-color:#18aeb9;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+header ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:white;
+}
+.Titulo h1 a{
+    text-decoration: none;
+    color: white;
+}
+.Menu{
+    display: flex;
+    align-items: center;
+}
+.Conta{
+    display: flex;
+    align-items: center;
+}
+h1{
+    color: white;
+    
+}
+footer{
+    background: #18aeb9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}

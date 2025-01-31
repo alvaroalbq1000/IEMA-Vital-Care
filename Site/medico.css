@@ -1,0 +1,47 @@
+.principal{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.lateral{
+    height: 650px;
+    width: 100px;
+    background: #18aeb9;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    font-size: 50px;
+}
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #18aeb9;
+    text-align: center;
+    gap: 20px;
+    height: 650px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.conteudo h2{
+    margin: 0;
+}
+.medicos{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.medicos div{
+    width: 200px;
+    border: 5px solid #95ffe0;
+}
+.Fulanos{
+    width: 120px;
+    height: 160px;
+}
